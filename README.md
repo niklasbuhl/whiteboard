@@ -1,70 +1,97 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Project
+https://github.com/ibmcicdk/CIC-HIRING-TEST/tree/master/VirtualWhiteBoard
 
-In the project directory, you can run:
+# Role
+Fullstack
 
-### `npm start`
+# Functionality
+Sam and Bertha can log in with common the passphrase "hack the planet".
+Then they can tweet something of 240 characters.
+And finally load the tweets from the backend.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# How to Run
+## Frontend
+`npm run start`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Backend
+`npm run start-backend`
 
-### `npm test`
+# Technology
+## Tools
+- Terminal
+- Atom
+- Postmaster
+- NPM
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Backend
+- Python3
+- Flask
 
-### `npm run build`
+## Frontend
+- HTML
+- Javascript
+- React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Task
+- All tasks are described as "user stories" - simply put a user wants to be able to do this, you come up with how they are going to do it. You're not meant to do all stories but as many as you can and in no particular order.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Login
+- (DONE) Sam and Bertha wants to use the virtual whiteboard, to do this they must first login with the team given login
+- Sam and Bertha are sick and tired of random people deleting their posts, they want their own logins and to only be able to delete their own posts
+- Sam has forgotten his password and would like to reset it
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Virtual board
+- (DONE) Sam wants to create a new piece of text to put onto the virtual board so that he can write a motivational text, he wants it to be as long as a tweet
+- Bertha would like to be able to put links to images onto the board
+- Bertha would love if she could post a youtube video that she saw last week
+- Bertha would like to see media be rendered on the board
+- Sam wants to delete a post he's created, the youtube video was not as fun as he remembered it
+- Bertha would like to be able to put a comment on posts so that Sam can see that she's seen the post
+- Bertha would like to be able to "like" a post
+- Bertha's lunch has been stolen from the fridge and would like to put an anonymous post up that tells the thief off
 
-### `npm run eject`
+## Role management
+- Sam would like to become a moderator for the virtual board to make sure that bad stuff is not posted, when he is a moderator he can delete all posts
+- Sam would like to add Jennifer as a new user of the whiteboard and give her a login
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Account management
+- Sam does not like his name on the whiteboard and would like to change it to "Sam Wise"
+- Sam would like to be able to change his password, Bertha keeps logging in and posting for him
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# References
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Setup
+https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project
+https://youtu.be/Q2eafQYgglM
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## React Pages
+https://stackoverflow.com/questions/41956465/how-to-create-multiple-page-app-using-react
+https://www.techomoro.com/how-to-create-a-multi-page-website-with-react-in-5-minutes/
 
-## Learn More
+## Database
+https://blog.almightytricks.com/2020/11/20/python-flask-rest-api-tutorial/
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Login
+https://pythonspot.com/login-authentication-with-flask/
+https://www.youtube.com/watch?v=8-W2O_R95Pk
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tweeting
 
-### Code Splitting
+## Draw
+https://www.twilio.com/blog/collaborative-whiteboard-python-flask-twilio-sync
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Styling
+https://opencollective.com/styled-components
 
-### Analyzing the Bundle Size
+## REST
+https://stackoverflow.com/questions/54892531/axios-data-coming-up-as-immutablemultidict-when-sent-to-flask-post-route-bu
+https://techwizerd.com/posts/how-to-use-react-use-effect-to-post-data-and-refresh-without-infinite-callback/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Axios
+https://www.positronx.io/react-axios-tutorial-make-http-get-post-requests/
 
-### Making a Progressive Web App
+https://www.youtube.com/watch?v=8-W2O_R95Pk
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://stackoverflow.com/questions/13326599/how-can-i-set-the-current-session-as-logged-in-using-python-in-flask-with-flas
